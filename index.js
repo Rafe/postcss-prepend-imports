@@ -1,9 +1,13 @@
-var postcss = require('postcss');
+module.exports = (opts = {}) => ({
+    postcssPlugin: 'postcss-prepend-imports',
+    Once(root) {
+        const { rule } = opts;
+        if (!rule) {
+            throw new Error('You must provide a rule option');
+        }
 
-module.exports = postcss.plugin('postcss-prepend-imports', function (opts) {
-    opts = opts || {};
-
-    return Once (root) {
-        root.prepend(opts.rule || '');
-    };
+        root.prepend(rule);
+    }
 });
+
+module.exports.postcss = true;
