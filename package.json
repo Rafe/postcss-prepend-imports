@@ -1,6 +1,6 @@
 {
   "name": "postcss-prepend-imports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PostCSS plugin to automatically import global dependencies",
   "keywords": [
     "postcss",
@@ -16,8 +16,8 @@
     "url": "https://github.com/ramonvictor/postcss-prepend-imports/issues"
   },
   "homepage": "https://github.com/ramonvictor/postcss-prepend-imports",
-  "dependencies": {
-    "postcss": "^5.0.0"
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
@@ -37,5 +37,6 @@
     "env": {
       "jest": true
     }
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
