@@ -1,6 +1,6 @@
 {
   "name": "postcss-prepend-imports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PostCSS plugin to automatically import global dependencies",
   "keywords": [
     "postcss",

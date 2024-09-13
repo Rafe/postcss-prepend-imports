@@ -9,7 +9,7 @@ module.exports = postcss.plugin('postcss-prepend-imports', function (opts) {
     return function (root) {
         opts.files.reverse().forEach(file => {
             file = path.resolve(opts.path, file);
-            root.prepend({ name: 'import', params: '"' + file + '"' });
+            root.prepend("@layer normalize, globals, design-system;");
         });
     };
 });
