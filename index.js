@@ -1,6 +1,6 @@
 module.exports = (opts = {}) => ({
     postcssPlugin: 'postcss-prepend-imports',
-    Once(root) {
+    Root(root) {
         const { rule } = opts;
         if (!rule) {
             throw new Error('You must provide a rule option');
