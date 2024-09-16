@@ -1,21 +1,20 @@
 {
-  "name": "postcss-prepend-imports",
-  "version": "1.0.6",
-  "description": "PostCSS plugin to automatically import global dependencies",
+  "name": "postcss-prepend-rule",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to prepend rule for each files",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "import",
     "variables"
   ],
   "author": "@ramonvictor",
   "license": "MIT",
-  "repository": "ramonvictor/postcss-prepend-imports",
+  "repository": "rafe/postcss-prepend-rule",
   "bugs": {
-    "url": "https://github.com/ramonvictor/postcss-prepend-imports/issues"
+    "url": "https://github.com/rafe/postcss-prepend-rule/issues"
   },
-  "homepage": "https://github.com/ramonvictor/postcss-prepend-imports",
+  "homepage": "https://github.com/rafe/postcss-prepend-rule",
   "peerDependencies": {
     "postcss": "^8.0.0"
   },
