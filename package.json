@@ -1,6 +1,6 @@
 {
   "name": "postcss-prepend-rule",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PostCSS plugin to prepend rule for each files",
   "keywords": [
     "postcss",
