@@ -1,6 +1,6 @@
 {
   "name": "postcss-prepend-rule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to prepend rule for each files",
   "keywords": [
     "postcss",
@@ -8,7 +8,7 @@
     "postcss-plugin",
     "variables"
   ],
-  "author": "@ramonvictor",
+  "author": "@rafe",
   "license": "MIT",
   "repository": "rafe/postcss-prepend-rule",
   "bugs": {

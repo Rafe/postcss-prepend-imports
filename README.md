@@ -13,7 +13,7 @@ Majority to handle the issue of Nextjs css order issue: https://github.com/verce
 {
   "plugins": [
     [
-      "postcss-prepend-imports",
+      "postcss-prepend-rule",
       {
         "rule": "@layer normalize, globals, custom-css"
       }
